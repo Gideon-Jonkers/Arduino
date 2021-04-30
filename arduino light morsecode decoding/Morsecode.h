@@ -3,7 +3,7 @@ String Decode(String text)
   String letter;
   String rtext;// = "Morse code: ";
   bool space = false;
-  for(int c = 0;c<text.length();c++)
+  for(unsigned int c = 0;c<text.length();c++)
   {
     space = false;
     for(int i = 0;i<5;i++)
@@ -24,7 +24,7 @@ String Decode(String text)
     }
     let:
     unsigned long cval = 0;
-    for(int i = 0;i<letter.length();i++)
+    for(unsigned int i = 0;i<letter.length();i++)
     {
       cval += letter[i] == '_' ? (letter[i] + pow(2,i)) : (letter[i]);
       if(i == 0 && letter[i] == '_'){cval--;}
