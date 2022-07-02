@@ -1,2 +1,3 @@
-# Arduino
-Arduino related projects
+# Arduino projects
+
+All my Arduino projects
