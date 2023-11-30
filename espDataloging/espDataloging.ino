@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-char *ssid = "TestEsp";
-char *pass = "123456789";
+char ssid[] = "Redmi 8";
+char pass[] = "12345678";
 
 double buf[400];
 double bufv[400];
